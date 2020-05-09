@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LostInUnab</string>
+    <string name="btn_registro">Registrar Usuario</string>
+    <string name="btn_login">Ingresar</string>
+    <string name="titulo">Bienvenido</string>
+    <string name="descripcion">Sistema de ayuda en caso de perdida de objetos en las instalaciones de la Universidad.</string>
+    <string name="usuario">Ingrese su usuario Unab</string>
+    <string name="contraseña">Establesca una contraseña</string>
+    <string name="user_name">Usuario Unab</string>
+    <string name="user_password">Contraseña</string>
+    <string name="btn_guardar">Guardar Usuario</string>
+
+
+</resources>

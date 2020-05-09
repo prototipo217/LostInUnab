@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "49311076153",
+    "firebase_url": "https://lostinunab.firebaseio.com",
+    "project_id": "lostinunab",
+    "storage_bucket": "lostinunab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49311076153:android:9e196720092de4355ee2e8",
+        "android_client_info": {
+          "package_name": "co.edu.unab.proyecto.lostinunab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49311076153-snv3m96nge146b5gnfjv9j6ma5fdeb20.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.edu.unab.proyecto.lostinunab",
+            "certificate_hash": "37452ea5d47aa25bf1adf258cb264a61461b0dd2"
+          }
+        },
+        {
+          "client_id": "49311076153-pju8r946rdt0qe7v38iakr0fl7bl9d3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvfvtuciTG-TO4oliMT1_1Ra83X_iVWf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49311076153-pju8r946rdt0qe7v38iakr0fl7bl9d3s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
