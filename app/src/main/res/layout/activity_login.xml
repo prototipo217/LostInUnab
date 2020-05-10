@@ -4,82 +4,80 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/common_google_signin_btn_text_dark_default"
-    tools:context=".RegistroActivity">
+    tools:context=".LoginActivity">
 
     <TextView
-        android:id="@+id/txtUsuario"
+        android:id="@+id/txtUser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="130dp"
+        android:layout_marginStart="129dp"
         android:layout_marginTop="76dp"
         android:layout_marginEnd="130dp"
         android:text="@string/usuario"
         android:textColor="@android:color/holo_orange_dark"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/edtUsuario"
-        android:layout_width="191dp"
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="110dp"
+        android:layout_marginStart="99dp"
         android:layout_marginTop="15dp"
-        android:layout_marginEnd="110dp"
+        android:layout_marginEnd="99dp"
         android:ems="10"
         android:hint="@string/user_name"
         android:inputType="textPersonName"
         android:textColor="@android:color/holo_orange_dark"
-        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtUsuario" />
+        app:layout_constraintTop_toBottomOf="@+id/txtUser" />
 
     <TextView
         android:id="@+id/txtPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="72dp"
-        android:layout_marginEnd="120dp"
-        android:text="@string/contraseña"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="144dp"
+        android:text="@string/txt_password"
         android:textColor="@android:color/holo_orange_dark"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtUsuario" />
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
 
     <EditText
-        android:id="@+id/edtContraseña"
-        android:layout_width="191dp"
-        android:layout_height="39dp"
-        android:layout_marginStart="110dp"
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="99dp"
         android:layout_marginTop="15dp"
-        android:layout_marginEnd="110dp"
+        android:layout_marginEnd="99dp"
         android:ems="10"
-        android:hint="@string/user_password"
+        android:hint="@string/txt_password"
         android:inputType="textPassword"
         android:textColor="@android:color/holo_orange_dark"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtPassword" />
 
     <Button
-        android:id="@+id/btnGuardar"
+        android:id="@+id/btnPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="125dp"
-        android:layout_marginTop="256dp"
-        android:layout_marginEnd="126dp"
-        android:text="@string/btn_registro"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="160dp"
+        android:text="@string/btn_login"
         android:textColor="@android:color/holo_orange_dark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtContraseña" />
+        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

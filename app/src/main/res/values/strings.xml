@@ -9,6 +9,7 @@
     <string name="user_name">Usuario Unab</string>
     <string name="user_password">Contraseña</string>
     <string name="btn_guardar">Guardar Usuario</string>
+    <string name="txt_password">Ingrese Contraseña</string>
 
 
 </resources>
