@@ -1,6 +1,8 @@
 package co.edu.unab.proyecto.lostinunab;
 
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -36,6 +38,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         btnIngresar = findViewById(R.id.btnPassword);
         edtUser = findViewById(R.id.editText);
         edtPassword = findViewById(R.id.editText2);
+
 
         btnIngresar.setOnClickListener(this);
 
@@ -96,6 +99,11 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     public void onClick(View view) {
         loguearUsuario();
+    }
+
+    @Override
+    public void onBackPressed(){
+        super.onBackPressed();
     }
 
 }

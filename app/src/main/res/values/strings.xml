@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LostInUnab</string>
+    <string name="app_name">Lost In Unab</string>
     <string name="btn_registro">Registrar Usuario</string>
     <string name="btn_login">Ingresar</string>
     <string name="titulo">Bienvenido</string>
@@ -10,6 +10,16 @@
     <string name="user_password">Contraseña</string>
     <string name="btn_guardar">Guardar Usuario</string>
     <string name="txt_password">Ingrese Contraseña</string>
+    <string-array name="Categorias">
+        <item>CATEGORIAS</item>
+        <item>Termos</item>
+        <item>Sacos</item>
+        <item>Telefonos</item>
+        <item>Libros</item>
+        <item>Accesorios</item>
+        <item>Semestre</item>
+        <item>Tiempo</item>
+    </string-array>
 
 
 </resources>

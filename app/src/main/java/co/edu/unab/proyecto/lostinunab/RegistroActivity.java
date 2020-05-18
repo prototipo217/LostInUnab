@@ -108,4 +108,9 @@ public class RegistroActivity extends AppCompatActivity implements View.OnClickL
     public void onClick(View view) {
         registrarUsuario();
     }
+
+    @Override
+    public void onBackPressed(){
+        super.onBackPressed();
+    }
 }

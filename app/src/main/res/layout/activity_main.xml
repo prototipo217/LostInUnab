@@ -72,6 +72,6 @@
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtTitulo"
-        app:srcCompat="@drawable/lost" />
+        app:srcCompat="@drawable/logotipo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
